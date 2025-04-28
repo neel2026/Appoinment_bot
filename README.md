@@ -41,3 +41,19 @@ python -m spacy validate
 # Train Your Rasa Model:
 
 rasa train
+
+Run the Rasa server:
+
+bash# In terminal 1, start the Rasa server
+rasa run --enable-api --cors "*" --debug
+
+Run the action server:
+
+bash# In terminal 2, start the action server
+rasa run actions
+
+Serve the web interface:
+
+bash# In terminal 3, if you have Python installed
+cd webchat
+python -m http.server 8000
