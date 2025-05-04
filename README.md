@@ -28,7 +28,7 @@ pip install spacy==3.4.4
   install this first 
         1)brew install libpq
         2)pip install psycopg2-binary
-    # Download the spaCy Language Model:
+# Download the spaCy Language Model:
 
 python -m spacy download en_core_web_md
 
