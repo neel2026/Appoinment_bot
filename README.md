@@ -24,7 +24,8 @@ pip install --upgrade pip
 pip install rasa==3.6.18
 pip install spacy==3.4.4
 
-#if error while installing try:
+
+# if error while installing try:
   install this first 
         1)brew install libpq
         2)pip install psycopg2-binary
